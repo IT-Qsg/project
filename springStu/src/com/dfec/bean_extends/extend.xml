@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <!--不能被实例化 是一个模板 类似一个抽象类-->
+    <bean id="BaseCustomerMalaysia" class="com.dfec.bean_extends.Customer" abstract="true">
+        <property name="con" value="Malaysia" />
+        <property name="ation" value="go"/>
+    </bean>
+<!--父类 的go 被 buy覆盖-->
+    <bean id="CustomerBean" parent="BaseCustomerMalaysia">
+        <property name="ation" value="buy" />
+        <property name="type" value="1" />
+    </bean>
+
+</beans>

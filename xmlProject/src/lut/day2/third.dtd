@@ -1,0 +1,7 @@
+<!ELEMENT students (student)>
+<!ELEMENT student EMPTY>
+<!ELEMENT teachers (teacher)>
+<!ELEMENT teacher (id,name,age) (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>

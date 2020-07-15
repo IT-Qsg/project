@@ -1,0 +1,25 @@
+<!ELEMENT class-infomation (class+))>
+
+        <!ELEMENT class (persion-num,gender+,hosts)>
+
+        <!ATTLIST class id ID #REQUIRED>
+
+        <!ELEMENT persion-num (#PCDATA)>
+
+        <!ELEMENT gender (number)>
+
+        <!ELEMENT number (#PCDATA)>
+
+        <!ATTLIST number type (男|女) #REQUIRED>
+
+        <!ELEMENT hosts (host)>
+
+        <!ELEMENT host (start-host-num,end-host-num)>
+
+        <!ATTLIST host gender (男|女) #REQUIRED>
+
+        <!ELEMENT start-host-num (#PCDATA)>
+
+        <!ELEMENT end-host-num (#PCDATA)>
+
+

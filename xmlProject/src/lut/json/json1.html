@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+</head>
+<body>
+<p>
+    名称：<span id="jname"></span><br />
+    地址：<span id="jaddr"></span><br />
+    描述：<span id="jdes"></span><br />
+</p>
+<script>
+    var JSONObject= {
+        "name":"菜鸟教程",
+        "url":"www.runoob.com",
+        "slogan":"学的不仅是技术，更是梦想！"
+    };
+    document.getElementById("jname").innerHTML=JSONObject.name
+    document.getElementById("jaddr").innerHTML=JSONObject.url
+    document.getElementById("jdes").innerHTML=JSONObject.slogan
+</script>
+
+</body>
+</html>

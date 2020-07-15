@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dbutil">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/jar/dbutil" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/jar/dbutil" recursive="false" />
+  </library>
+</component>

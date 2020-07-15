@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE class-infomation SYSTEM "class_info.dtd">
+<class-infomation>
+    <class id="1001">
+        <persion-num>30</persion-num>
+        <gender>
+            <number type="女">10</number>
+            <number type="男">20</number>
+        </gender>
+        <hosts>
+            <host gender="男">
+                <start-host-num>A301</start-host-num>
+                <end-host-num>A304</end-host-num>
+            </host>
+            <host gender="女">
+                <start-host-num>B202</start-host-num>
+                <end-host-num>B203</end-host-num>
+            </host>
+        </hosts>
+    </class>
+    <class id="1002">
+        <persion-num>30</persion-num>
+        <gender>
+            <number type="女">10</number>
+            <number type="男">20</number>
+        </gender>
+        <hosts>
+            <host gender="男">
+                <start-host-num>A301</start-host-num>
+                <end-host-num>A304</end-host-num>
+            </host>
+            <host gender="女">
+                <start-host-num>B202</start-host-num>
+                <end-host-num>B203</end-host-num>
+            </host>
+        </hosts>
+    </class>
+</class-infomation>

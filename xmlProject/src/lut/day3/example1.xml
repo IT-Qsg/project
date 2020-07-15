@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<students>
+    <student>
+        <id>110</id>
+        <name>王红</name>
+        <age>20</age>
+    </student>
+</students>-->
+<!--namespace-->
+<tables>
+    <table>
+    <!--使用前缀-->
+        <tr>
+            <td>水果</td>
+            <td>苹果</td>
+            <td>臭榴莲</td>
+        </tr>
+    </table>
+    <f:table xmlns:f="http://www.ttt">
+        <tr>
+            <td>玻璃</td>
+            <td>普通玻璃</td>
+            <td>钢化玻璃</td>
+        </tr>
+    </f:table>
+    <table>
+        <tr>
+            <td>人</td>
+            <td>男人</td>
+            <td>女人</td>
+        </tr>
+    </table>
+</tables>
+

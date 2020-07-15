@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor">
+    <property name="requiredAnnotationType" value="com.dfec.day7_2.required.req.Mandatory"/>
+    </bean>
+    <bean id="CustomerBean" class="com.dfec.day7_2.required.req.Customer">
+        <property name="action" value="buy" />
+        <property name="type" value="1" />
+        <property name="person" ref="PersonBean"/>
+    </bean>
+
+    <bean id="PersonBean" class="com.dfec.day7_2.required.req.Person">
+        <property name="name" value="yiibai" />
+        <property name="address" value="address ABC" />
+        <property name="age" value="29" />
+    </bean>
+
+</beans>

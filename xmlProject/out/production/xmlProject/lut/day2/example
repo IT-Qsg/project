@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+<!DOCTYPE students SYSTEM "third.dtd">
+<students>
+    <student/>
+</students>
+-->
+<!--
+<!DOCTYPE students [
+        &lt;!&ndash;<!ELEMENT students (name|age|gender)+>&ndash;&gt;
+        <!ELEMENT students (name?,age,gender)+>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT gender (#PCDATA)>
+        ]>
+<students>
+    <name></name>
+    <age></age>
+    <gender></gender>
+    <name></name>
+    <age></age>
+    <gender></gender>
+</students>-->
+<!DOCTYPE students [
+        <!ELEMENT students (name+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ATTLIST name
+                id CDATA #REQUIRED
+                name ID #REQUIRED
+                PID IDREF #IMPLIED
+                PID2 IDREFS #IMPLIED
+                gender (男|女) #IMPLIED
+                phone CDATA "110"
+                OK CDATA #FIXED "YES"
+                >
+                ]>
+<students>
+    <name id="1" name="test"><![CDATA[idtest]]></name>
+    <name id="2" name="test1"><![CDATA["DKSFKAS"]]></name>
+    <name id="3" name="test2" PID="test"><![CDATA["DKSFKAS"]]></name>
+    <name id="3" name="test3" PID2="test1 test"><![CDATA["DKSFKAS"]]></name>
+    <name id="3" name="test4" PID2="test1 test" gender="男"><![CDATA["DKSFKAS"]]></name>
+    <name id="3" name="tes" phone=""></name>
+    <name id="3" name="tes1" phone="120" OK="YES"></name>
+
+
+</students>

@@ -1,0 +1,84 @@
+2019-08-29 23:58:02 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /inp.html
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:58:02 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:58:02 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：html
+2019-08-29 23:58:02 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /inp.html
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Cache-Control: max-age=0
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:58:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:58:06 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：html
+2019-08-29 23:58:06 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:58:52 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:58:52 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:58:52 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：/
+2019-08-29 23:58:52 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /inp.html
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:58:57 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:58:57 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：html
+2019-08-29 23:58:57 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:59:06 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:59:06 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：/
+2019-08-29 23:59:06 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /inp.html
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:59:12 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:59:12 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：html
+2019-08-29 23:59:12 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /inp.html
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Cache-Control: max-age=0
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:59:20 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:59:20 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：html
+2019-08-29 23:59:20 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:48) requestImp.java INFO /
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Host: 127.0.0.1:120
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Connection: keep-alive
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Upgrade-Insecure-Requests: 1
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Encoding: gzip, deflate, br
+2019-08-29 23:59:25 Sever3.requestImp.gerInfo(requestImp.java:53) requestImp.java INFO Accept-Language: zh-CN,zh;q=0.9
+2019-08-29 23:59:25 Sever3.ResponseImp.getResHeader(ResponseImp.java:53) ResponseImp.java INFO 后缀：/
+2019-08-29 23:59:25 Sever3.requestImp.<init>(requestImp.java:28) requestImp.java INFO 127.0.0.1

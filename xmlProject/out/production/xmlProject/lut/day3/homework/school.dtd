@@ -1,0 +1,2 @@
+<!ELEMENT school (principal?)>
+<!ELEMENT principal (#PCDATA)>
