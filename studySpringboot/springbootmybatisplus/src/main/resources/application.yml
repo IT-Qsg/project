@@ -1,0 +1,21 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8081
+
+spring:
+  application:
+    name: springbootmybatisplus
+  resources:
+    static-locations: classpath:/resources/,file:/usr/local/soft/service/,file:H:/workspace-photon/service/
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    default-property-inclusion: non_null
+
+
+

@@ -1,0 +1,80 @@
+﻿<html  xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>合同管理系统</title>
+<link th:href="@{/main/style/authority/login_css.css}" rel="stylesheet" type="text/css" />
+<script type="text/javascript" th:src="@{main/scripts/jquery/jquery-1.7.1.js}"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#login_sub").click(function(){
+			
+        	$("#msg").val("");
+        	if($("#name").val()==""){
+        		$("#msg").html("请输入用户名!");
+        		return;
+        	}
+        	else if($("#pwd").val()==""){
+        		$("#msg").html("请输入密码!");
+        		return;
+        	}
+        	else if($("#pwd").val()!=""&&$("#name").val()!=""){
+        		//jquery的提交
+            	//$("#form").submit();
+        		$("#submitForm").attr("action", "/login").submit();
+        	}
+			
+		});
+	});
+	
+	/*回车事件*/
+	function EnterPress(e){ //传入 event 
+		var e = e || window.event; 
+		if(e.keyCode == 13){ 
+			$("#submitForm").attr("action", "/login").submit();
+		} 
+	} 
+</script>
+<style type="text/css">
+a {font-size:16px} 
+a:link {color: blue; text-decoration:none;} /* 未访问：蓝色、无下划线  */
+a:active:{color: red; } /* 激活：红色  */
+a:visited {color:purple;text-decoration:none;} /* 已访问：purple、无下划线  */
+a:hover {color: red; text-decoration:underline;} /* 鼠标移近：红色、下划线  */
+
+</style>
+</head>
+<body>
+	<div id="login_center">
+		<div id="login_area">
+			<div id="login_box">
+				<div id="login_form">
+					<form  id="submitForm" action="" method="get">
+						<div id="login_tip">
+							<span id="login_err" class="sty_txt2"></span>
+						</div>
+						<div>
+							 用户名：<input type="text" name="username" class="username" id="name">
+						</div>
+						<div>
+							密&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="password" class="pwd" id="pwd" onkeypress="EnterPress(event)" onkeydown="EnterPress()">
+						<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<font id="msg" color="red" style="font-size: 12px"></font>
+						</div>
+						<div id="btn_area">
+							<input type="button" class="login_btn" id="login_sub"  value="登  录">
+							<input type="reset" class="login_btn" id="login_ret" value="重 置">
+						</div>
+					</form>
+					
+				</div>
+				
+				 <font style=" position:absolute;right:0px;bottom:20px;">还没有账号，请点击<a href="register.jsp" >  注册  </a>哦！</font>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

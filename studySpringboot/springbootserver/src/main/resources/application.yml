@@ -1,0 +1,17 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8080
+spring:
+  application:
+    name: springbootserver
+  profiles:
+    active: dev
+  thymeleaf:
+#      prefix:classpath: /templates/
+      suffix: .html
+      mode: HTML
+      encoding: utf-8
+      cache: false
