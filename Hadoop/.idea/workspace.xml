@@ -3,6 +3,123 @@
   <component name="ChangeListManager">
     <list default="true" id="6b8147a6-7652-44fc-9379-c6bacc980175" name="Default Changelist" comment="hadoop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/src/main/java/com/dfec/demo/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/src/main/java/com/dfec/demo/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/src/main/java/com/dfec/demo/ProductServiceTestConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/src/main/java/com/dfec/demo/SpringbootMockitoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/Mockito/src/test/java/com/dfec/demo/SpringbootMockitoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/java/com/springboot/hibernate/HibernateApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/java/com/springboot/hibernate/conf/JpaConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/java/com/springboot/hibernate/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/java/com/springboot/hibernate/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/java/com/springboot/hibernate/repository/UserRepositoty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/java/com/springboot/hibernate/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/hibernate/src/test/java/com/springboot/hibernate/HibernateApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/main/resources/log/mylog.log/spring.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/MybatisplusApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/MpGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/mapper/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/automybatisplus/com/dfec/autospringbootmybatisplus/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/java/com/example/demo/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/main/resources/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/mybatisplus/src/test/java/com/example/demo/MybatisplusApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/src/main/java/com/dfec/email/sendemail/SendemailApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/src/main/java/com/dfec/email/sendemail/controller/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/src/main/resources/file/English.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/sendemail/src/test/java/com/dfec/email/sendemail/SendemailApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/java/com/example/demo/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/java/com/example/demo/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/springsecurity/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/component/Scheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/component/SimpleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/component/UserServiceInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/component/UserServiceInterceptorAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/controller/ViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/dao/ConnDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/exception/UserExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/file/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/mapper/PersonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/redis/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/service/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/service/PersonServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/application-redis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/log/mylog.log/spring.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/mapping/personMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/mapping/userMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/templates/add-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/templates/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/templates/multifile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/templates/view-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/resources/总结" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/test/java/com/dfec/springbootmybatis/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/ElasticSearch/src/main/java/com/dfec/elasticsearch/test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
@@ -392,7 +509,7 @@
     <option name="totallyTimeSpent" value="175108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -873,7 +990,7 @@
     <entry file="file://$PROJECT_DIR$/ElasticSearch/src/main/java/com/dfec/elasticsearch/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
