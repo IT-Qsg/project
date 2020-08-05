@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Apach Impala -Conn" uuid="513abd03-17d3-4faf-9e6a-43911b195e3b">
+      <database-info product="Impala" version="3.2.0-cdh6.2.0" jdbc-version="4.1" driver-name="ImpalaJDBC" driver-version="02.05.41.1061" dbms="IMPALA" exact-version="3.2" exact-driver-version="2.5">
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>admin</user-name>
+      <introspection-schemas>@:</introspection-schemas>
+    </data-source>
+    <data-source name="flink@localhost" uuid="9beec424-1df8-4f29-af05-cb1c604d45c7">
+      <database-info product="MySQL" version="5.7.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 )" dbms="MYSQL" exact-version="5.7.23" exact-driver-version="5.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>

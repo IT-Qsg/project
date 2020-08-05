@@ -1,0 +1,7 @@
+com\dfec\hdfs\file_readerandwriter\sequence_file\SequenceFileTest.class
+com\dfec\hdfs\file_readerandwriter\sequence_file\stu\SequdenceFileReaderObject.class
+com\dfec\hdfs\file_readerandwriter\sequence_file\stu\Student.class
+com\dfec\hdfs\file_readerandwriter\basic\FirstFileReadAndWriter.class
+com\dfec\hdfs\file_readerandwriter\sequence_file\stu\SequenceFileWriterObject.class
+com\dfec\hdfs\file_readerandwriter\sequence_file\SequenceFileReader.class
+com\dfec\hdfs\file_readerandwriter\basic\UtilTestFile_RW.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Apach Impala -Conn">
+  <database-model serializer="dbm" dbms="IMPALA" family-id="IMPALA" format-version="4.15">
+    <root id="1">
+      <ServerVersion>3.2</ServerVersion>
+      <Dbms>IMPALA</Dbms>
+    </root>
+    <database id="2" parent="1" name="Impala">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="_impala_builtins"/>
+    <schema id="4" parent="2" name="cloudera_manager_metastore_canary_test_db_hive_hivemetastore_8f553be188389441d24a8f0b67c6560f"/>
+    <schema id="5" parent="2" name="default"/>
+    <schema id="6" parent="2" name="imp_test"/>
+    <schema id="7" parent="2" name="kudu_data"/>
+    <schema id="8" parent="2" name="ods"/>
+  </database-model>
+</dataSource>

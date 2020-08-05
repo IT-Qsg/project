@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b8147a6-7652-44fc-9379-c6bacc980175" name="Default Changelist" comment="hadoop">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/513abd03-17d3-4faf-9e6a-43911b195e3b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9beec424-1df8-4f29-af05-cb1c604d45c7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ImpalaJDBC41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticSearch/src/main/java/com/dfec/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticSearch/src/test/java/com/dfec/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticSearch/target/classes/com/dfec/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticSearch/target/classes/com/dfec/elasticsearch/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticSearch/target/test-classes/com/dfec/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink/Flink.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink/src/main/java/com/dfec/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/KafkaProduceTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink/src/main/resources/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink/src/test/java/com/dfec/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/src/main/java/com/dfec/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/src/test/java/com/dfec/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/impala/Conn2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/impala/ConnectImpala.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/impala/MyFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impala/target/test-classes/com/dfec/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/basic/FirstFileReadAndWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/basic/UtilTestFile_RW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequdenceFileReaderObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequenceFileWriterObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/src/test/java/com/dfec/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/basic/FirstFileReadAndWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/basic/UtilTestFile_RW.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequdenceFileReaderObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequenceFileWriterObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/hdfs-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/surefire-reports/TEST-com.dfec.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/surefire-reports/com.dfec.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs/target/test-classes/com/dfec/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dfec/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dfec/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/FirstGui$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/FirstGui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI6$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/GUI6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/META-INF/client.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/Util/PropertiesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/pathconf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/单位配置.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/数据库配置.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/短信猫串口.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/out/production/client/网络发报类型.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pathconf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/单位配置.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/数据库配置.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/短信猫串口.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/网络发报类型.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/FirstGui$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/FirstGui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI6$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/GUI6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/out/production/GUI/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/src/main/java/com/dfec/redisshiroswagger/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/src/test/java/com/dfec/redisshiroswagger/RedisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/dataSources/1bcc1a34-384d-4125-a415-7ed2cdf8d36f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__cn_hutool_hutool_all_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_alibaba_druid_1_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_battcn_swagger_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_battcn_swagger_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_battcn_swagger_vue_ui_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_dfec_common_auth_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_dfec_common_utils_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_dfec_lettuce_redis_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_buffer_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_codec_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_common_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_handler_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_resolver_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_netty_netty_transport_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_jolokia_jolokia_core_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_aop_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_beans_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_context_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_core_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_expression_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_test_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_tx_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_web_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/studySpringboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/src/main/java/com/dfec/redisshiroswagger/RedisShiroSwaggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis-shiro-swagger/src/test/java/com/dfec/redisshiroswagger/RedisShiroSwaggerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/java/com/dfec/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/test/java/com/dfec/redis/RedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hdfs/target/" />
+    <ignored path="$PROJECT_DIR$/Impala/target/" />
+    <ignored path="$PROJECT_DIR$/Flink/target/" />
+    <ignored path="$PROJECT_DIR$/ElasticSearch/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ElasticSearch/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <folding>
+                <element signature="n#build#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>Student</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Person</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Flink/src/main/resources/source" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/MemoryUsageExtrator.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafksProducer.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/KafkaProduceTest2.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafkaCustomer.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/FlinkSourceKafka.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/unitl/FlinkKafka.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/FlinkSourcKafka.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/mysql/Student.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/mysql/FlinkSourceUtil.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/mysql/FlinkSinkMysql.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/mysql/MysqlSinkUtil.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/WordCount.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/WordCount3.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/redis/person" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/redis/Person.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/mysql/FlinkSourceMysql.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/redis/SourceMysql.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9beec424-1df8-4f29-af05-cb1c604d45c7/console.sql" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/redis/SinkRedisUtil.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/redis/SourceToRedis.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/WordCount3.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/timewindow/time" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/FlinkSourcKafka.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/WordCount.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/timewindow/TimeWindow1.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/timewindow/scala/TimeWindowScala.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/timewindow/scala/SlidingEventTimeWindows.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/countwindow/CountWindow2.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/countwindow/CountWindow1.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/EventTimeWindow/TumblingEventTimeWindows.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/util/MyKafkaUtil.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/stu" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/jsonTest.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Student.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/TestTable.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/StudentTable.scala" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/a" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/aTable" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/a.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/TableTest1.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/BatchTableTest.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/StreamTableTest.java" />
+        <option value="$PROJECT_DIR$/Flink/flink" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/kafksProducer.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/KafkaProduceTest2.java" />
+        <option value="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/kafkaCustomer.java" />
+        <option value="$PROJECT_DIR$/Flink/pom.xml" />
+        <option value="$PROJECT_DIR$/ElasticSearch/src/main/java/com/dfec/elasticsearch/test.java" />
+        <option value="$PROJECT_DIR$/ElasticSearch/ES" />
+        <option value="$PROJECT_DIR$/ElasticSearch/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\hadoop" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.3\conf\settings-aliyun.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/ImpalaJDBC41.xml" />
+        <option value="$PROJECT_DIR$/Flink/Flink.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="667" />
+    <option name="width" value="629" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="hive&#10;java.sql.Driver&#10;mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Flink/target" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4661215" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="KafkaProduceTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dfec.flink.kafka.KafkaProduceTest2" />
+      <module name="Flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dfec.flink.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dfec.flink.table.Table_java.StreamTableTest" />
+      <module name="Flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dfec.flink.table.Table_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafkaCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dfec.flink.kafka.kafkaCustomer" />
+      <module name="Flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dfec.flink.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kafksProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dfec.flink.kafka.kafksProducer" />
+      <module name="Flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dfec.flink.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dfec.elasticsearch.test" />
+      <module name="ElasticSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dfec.elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StreamTableTest" />
+      <item itemvalue="Application.kafksProducer" />
+      <item itemvalue="Application.KafkaProduceTest2" />
+      <item itemvalue="Application.kafkaCustomer" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.kafkaCustomer" />
+        <item itemvalue="Application.KafkaProduceTest2" />
+        <item itemvalue="Application.kafksProducer" />
+        <item itemvalue="Application.StreamTableTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\qsg\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b8147a6-7652-44fc-9379-c6bacc980175" name="Default Changelist" comment="" />
+      <created>1595465154427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595465154427</updated>
+      <workItem from="1595465159274" duration="23466000" />
+      <workItem from="1595580555509" duration="2888000" />
+      <workItem from="1595809207050" duration="12231000" />
+      <workItem from="1595843671181" duration="705000" />
+      <workItem from="1595897084929" duration="13163000" />
+      <workItem from="1595939623367" duration="4865000" />
+      <workItem from="1595981625088" duration="29106000" />
+      <workItem from="1596067791579" duration="24379000" />
+      <workItem from="1596154205483" duration="24252000" />
+      <workItem from="1596345767341" duration="2155000" />
+      <workItem from="1596370693835" duration="205000" />
+      <workItem from="1596371319817" duration="807000" />
+      <workItem from="1596413183214" duration="17934000" />
+      <workItem from="1596500237177" duration="11080000" />
+      <workItem from="1596586298831" duration="5717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="172953000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.21482602" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="2" weight="0.24914676" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.221843" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3993174" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.44197953" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.29180887" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Remote Host" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18381241" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.27912253" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.21482602" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="2" weight="0.24914676" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.221843" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3993174" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.44197953" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.29180887" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Remote Host" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18381241" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.27912253" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hadoop" />
+    <option name="LAST_COMMIT_MESSAGE" value="hadoop" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.jar!/org/apache/flink/streaming/api/windowing/assigners/TumblingEventTimeWindows.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.jar!/org/apache/flink/streaming/api/windowing/assigners/WindowAssigner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.jar!/org/apache/flink/streaming/api/datastream/KeyedStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="201" column="68" lean-forward="true" selection-start-line="201" selection-start-column="68" selection-end-line="201" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.jar!/org/apache/flink/streaming/api/datastream/DataStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/timewindow/scala/TimeWindowScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="31" column="18" selection-start-line="16" selection-start-column="4" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#48#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/timewindow/scala/SlidingEventTimeWindows.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#48#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/countwindow/CountWindow2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#43#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/window/EventTimeWindow/TumblingEventTimeWindows.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#47#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/util/MyKafkaUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-streaming-scala_2.11/1.7.0/flink-streaming-scala_2.11-1.7.0.jar!/org/apache/flink/streaming/api/scala/StreamExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1602">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/scala_2.11/scala-2.11.7/lib/scala-library.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.jar!/com/alibaba/fastjson/serializer/SerializerFeature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-table_2.11/1.7.0/flink-table_2.11-1.7.0.jar!/org/apache/flink/table/api/Table.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/stu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-table_2.11/1.7.0/flink-table_2.11-1.7.0.jar!/org/apache/flink/table/expressions/Asc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-table_2.11/1.7.0/flink-table_2.11-1.7.0.jar!/org/apache/flink/table/expressions/Expression.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-table_2.11/1.7.0/flink-table_2.11-1.7.0.jar!/org/apache/flink/table/api/scala/StreamTableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="97" lean-forward="true" selection-start-line="3" selection-start-column="97" selection-end-line="3" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/test/jsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Student.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-table_2.11/1.7.0/flink-table_2.11-1.7.0.jar!/org/apache/flink/table/api/java/BatchTableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-core/1.7.0/flink-core-1.7.0.jar!/org/apache/flink/api/common/functions/MapFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar!/org/apache/flink/api/java/DataSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar!/org/apache/flink/api/java/operators/Operator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar!/org/apache/flink/api/java/operators/SingleInputOperator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar!/org/apache/flink/api/java/operators/SingleInputUdfOperator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar!/org/apache/flink/api/java/operators/FlatMapOperator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/a" />
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-core/1.7.0/flink-core-1.7.0.jar!/org/apache/flink/api/common/io/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-core/1.7.0/flink-core-1.7.0.jar!/org/apache/flink/core/fs/Path.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar!/org/apache/flink/api/java/io/TextInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0-sources.jar!/org/apache/flink/api/java/io/TextInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="394" column="39" selection-start-line="394" selection-start-column="39" selection-end-line="394" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/aTable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/flink/flink-table_2.11/1.7.0/flink-table_2.11-1.7.0.jar!/org/apache/flink/table/api/TableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/TestTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#30#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/hadoop/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/clients/consumer/Consumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="220" column="27" selection-start-line="220" selection-start-column="27" selection-end-line="220" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8441#8442#0" expanded="true" />
+            <element signature="e#8482#8483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/flink">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/StudentTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="65" />
+          <folding>
+            <element signature="e#30#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/StreamTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/kafksProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElasticSearch/src/main/java/com/dfec/elasticsearch/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/KafkaProduceTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/kafkaCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/table/Table_java/BatchTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElasticSearch/ES">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="366" column="20" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElasticSearch/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Flink</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4661215" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4661215" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aff01f59-6811-44a4-8768-39106923543f" name="hdfs" url="http://192.168.43.38">
+        <fileTransfer host="192.168.43.38" port="22" rootFolder="/home/hdfs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6fcdcd25-5082-4188-a011-d88432e732f3" name="flink" url="http://192.168.40.15">
+        <fileTransfer host="192.168.40.15" port="22" rootFolder="/home/hadoop3" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
