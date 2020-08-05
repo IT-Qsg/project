@@ -1,0 +1,392 @@
+ElasticSearch:
+    1.简介：
+        基于Apache Lucene(TM)的开源搜索引擎
+    2.特点:
+        分布式的实时文件存储，每个字段都被索引并可被搜索
+        分布式的实时分析搜索引擎--做不规则查询
+        可以扩展到上百台服务器，处理PB级结构化或非结构化数据
+        仅仅支持json文件的数据格式
+        处理实时搜索索引时效率较高
+    3.用途：
+        全文检索（全部字段）
+        模糊查询（搜索）
+        数据分析（提供分析语法，例如聚合）
+    4.案例：
+        GitHub（代码搜索）、新浪、百度（数据分析、数据采集等）、阿里（日志系统）、维基斯百科
+    5.工具使用：
+        Kibana：
+             数据格式:JSON
+             基本操作：命令一般都是大写（不然在Kibana中会报错），index是小写字母
+                 1.更新/插入数据
+                 PUT index/type/id
+                {
+                    "name":"zhangsan",
+                    "id":"1"
+                }
+                2.获得数据
+                GET index/type/id
+                GET /test_index/test_type/1?_source=test_field2
+                3.删除数据
+                DELETE index/type/id
+                点击运行
+    6.数据存储方式：
+        1.面向文档进行:存储,搜索,索引
+        2.数据格式是：Json
+    7.数据存储结构
+        _______________________________________________
+        |                  Index（索引）               |
+        |   ____________________________________      |
+        |  |   type1        |        type2     |      |
+        |  |  ___________   |   ____________   |      |
+        |  |  |document1|   |   |document1 |   |      |
+        |  |  |  field1 |   |   |  field1  |   |      |
+        |  |  |  field2 |   |   |  field2  |   |      |
+        |  |  |         |   |   |          |   |      |
+        |  |  |---------|   |   |----------|   |      |
+        |  |  |document2|   |   |document2 |   |      |
+        |  |  |         |   |   |          |   |      |
+        |  |  |  field1 |   |   |  field1  |   |      |
+        |  |  |  field2 |   |   |  field2  |   |      |
+        |  |  |         |   |   |          |   |      |
+        |  |  |_________|   |   |__________|   |      |
+        |  |________________|__________________|      |
+        |_____________________________________________|
+
+    8.元数据
+            "_index" : 文档所在的索引名称
+            "_type" :  文档所在的类型名称
+            "_id" :    文档的唯一id -》不指定id时，系统为自动生成document id ，其适用环境是某系统大部分数据存储在DS上
+            "_version" : 数据的版本号（删除或者修改都会是版本号自动+1）,涉及到的算法是乐观锁
+                修改指定的版本号数据:
+                PUT /test_index/test_type/7?version=1
+                {
+                  "field": "value"
+                }
+            "_source" :  json的数据
+    9.数据搜索/索引 （实例）
+        eg:简单搜索
+            GET gu/index/id
+        eg:全文搜索
+            查询出文档中字段值为es的
+            GET /gu/index/id/_search?q=es
+            或
+            GET /gu/index/_search
+            { "query":{ "term":{  "title":"北京奥运"  }  }  }
+        eg:模糊/精确匹配 查询：
+            使用命令 curl -XGET http://ip:9200/index/doc/_search?pretty -d '{ "query":{  "match"/"term":{
+                    "title":"北京奥运"  }  }  }'
+        eg:聚合(aggregations)  ->类似 group by
+            查询所有 姓 Q 的所有的用户 共同兴趣爱好（模糊查询）
+            GET /atguigu/doc/_search
+            {
+              "query": {
+                "match": {
+                  "name": "Q"
+                }
+              },
+              "aggs": {
+                "all_interests": {
+                  "terms": {
+                    "field": "interests"
+                  }
+                }
+              }
+            }
+    10.Elasticsearch搜索原理
+        正排索引 :记录文档Id到文档内容、单词的关联关系
+           文档id -> 内容
+        倒排索引 :记录单词到文档id的关联关系
+            DocId	TF	Position	Offset
+            1	    1	   0	    <0,2>
+            3   	1	   0	    <0,2>
+            DocId：文档id，文档的原始信息
+            TF：单词频率，记录该词再文档中出现的次数，用于后续相关性算分
+            Position：位置，记录Field分词后，单词所在的位置，从0开始
+            Offset：偏移量，记录单词在文档中开始和结束位置，用于高亮显示等
+    11.内存结构：
+        B-Tree 二叉树
+    12：Analysis:
+            分词是指将文本转换成一系列单词（term or token）的过程，也可以叫做文本分析，在es里面称为Analysis
+            eg:     大方电子是最好的软件公司
+              文本分析：大方电子    是最好的    软件公司
+            分词机制：
+                Character Filter	对原始文本进行处理	    例：去除html标签、特殊字符等
+                Tokenizer	        将原始文本进行分词	    例：大方电子-> 大方，电子
+                Token Filters	    分词后的关键字进行加工	例：转小写、删除语气词、近义词和同义词等
+            分词API
+                ES自带的分词器：
+                    分词器（Analyzer）	        特点
+                    Standard（es默认）      	支持多语言，按词切分并做小写处理
+                    Simple	                    按照非字母切分，小写处理
+                    Whitespace	                按照空格来切分
+                    Stop	                    去除语气助词，如the、an、的、这等
+                    Keyword	                    不分词
+                    Pattern	                    正则分词，默认\w+,即非字词符号做分割符
+                    Language                	常见语言的分词器（30+）
+                中文分词：
+                    分词器名称       	介绍              	                 特点
+                    IK	            实现中英文单词切分    	                自定义词库
+                    Jieba	        python流行分词系统，支持分词和词性标注	支持繁体、自定义、并行分词
+                    Hanlp	        由一系列模型于算法组成的java工具包	    普及自然语言处理在生产环境中的应用
+                    THULAC	        清华大学中文词法分析工具包	            具有中文分词和词性标注功能
+            Character Filters
+                在进行Tokenizer之前对原始文本进行处理，如增加、删除或替换字符等
+
+                HTML Strip	     -->    去除html标签和转换html实体
+                Mapping	         -->    字符串替换操作
+                Pattern Replace	 -->    正则匹配替换
+            Token Filter
+                对输出的单词（term）进行增加、删除、修改等操作
+                Lowercase	  -->       将所有term转换为小写
+                stop          -->   	删除stop words
+                NGram         -->   	和Edge NGram连词分割
+                Synonym       -->   	添加近义词的term
+            自定义分词
+    13.分词使用场景
+        1.创建或者跟更新文档时进行分词
+        2.查询时分词：查询时对查询语句进行分词
+    14.分词器
+        IK分词器
+            使用算法：
+                ik_smart     ：最少切分
+                ik_max_word  ：最细粒度
+    15.字段描述：
+        Mapping：
+            1.作用：定义数据库中表的结构的定义
+                a.定义Index下的字段名（Field Name）
+                b.定义字段的类型，比如数值型、字符串型、布尔型等
+                c.定义倒排索引相关的配置，比如documentId、记录position、打分等
+            2.获取索引mapping【不进行配置时，自动创建的mapping】
+               请求： GET /atguigu/_mapping
+            3.自定义mapping
+                PUT my_index								#索引名称
+                {
+                  "mappings":{
+                    "es":{								#document type
+                      "dynamic":false,
+                      "properties":{
+                        "title":{                       #字段名称
+                          "type":"text"					#字段类型
+                                 },
+                        ……
+            4.Dynamic Mapping【es依靠json文档字段类型来实现自动识别字段类型，支持的类型】
+                    JSON类型                es类型
+                    null         ->         忽略
+                    boolean      ->         boolean
+                    浮点类型     ->         float
+                    整数         ->         long
+                    object       ->         object
+                    array        ->         由第一个非null值的类型决定
+                    string       ->         匹配为日期则设为data类型（默认开启）
+                                 ->         匹配为数字的话设为float或long类型（默认关闭）
+                                 ->         设为text类型，并附带keyword的子字段
+
+                    注意：
+                        1.mapping中的字段类型设定后，禁止修改
+                        原因：Lucene实现的倒排索引生成后不允许修改(提高效率)
+                    dynamic设置:可以设置在type下，也可以设置在字段中（object类型的字段中）
+                        a.true：允许自动新增字段（默认的配置）
+                        b.False：不允许自动新增字段，但是文档可以正常写入，无法对字段进行查询操作
+                        c.strict：文档不能写入（如果写入会报错）
+        copy_to:
+            将该字段的值复制到目标字段，实现_all的作用,不会出现在_source中，只用来搜索
+        Index属性
+            Index属性，控制当前字段是否索引，默认为true，即记录索引，false不记录，即不可以搜索，比如：手机号、身份证号等敏感信息，不希望被检索
+        Index_options用于控制倒排索引记录的内容，有如下4中配置
+            docs：    只记录docid
+            freqs：   记录docid和term frequencies（词频）
+            position：记录docid、term frequencies、term position
+            Offsets： 记录docid、term frequencies、term position、character offsets
+            【text类型默认配置为position，其默认认为docs，记录的内容越多，占用的空间越大】
+    16.数据类型：
+        核心数据类型
+            字符串型：text、keyword
+            数值型：long、integer、short、byte、double、float、half_float、scaled_float
+            日期类型：date
+            布尔类型：boolean
+            二进制类型：binary
+            范围类型：integer_range、float_range、long_range、double_range、date_range
+        复杂数据类型
+            数组类型：array
+            对象类型：object
+            嵌套类型：nested object
+        地理位置数据类型
+            geo_point(点)、geo_shape(形状)
+        专用类型
+            记录IP地址ip
+            实现自动补全completion
+            记录分词数：token_count
+            记录字符串hash值母乳murmur3
+        多字段特性multi-fields
+            允许对同一个字段采用不同的配置，比如分词，例如对人名实现拼音搜索，只需要在人名中新增一个子字段为pinyin即可
+    17.文档操作
+        1.创建文档
+            PUT index/type/id
+            Put index/type    id为系统自动生成的，是一个22位UUIDS  eg: "_id":       "wM0OSFhDQXGZAWDf0-drSA",
+        2.获得文档
+            GET index/type/id
+            GET /website/blog/123?pretty  #http请求使用的是GET的方式
+            字段：
+            1.pretty：
+                在任意的查询字符串中增加pretty参数。会让Elasticsearch美化输出(pretty-print)JSON响应以便更加容易阅读。_source字段不会被美化，它的样子与我们输入的一致。
+            2.found:
+                GET请求返回的响应内容包括{"found": true}。这意味着文档已经找到。如果我们请求一个不存在的文档，依旧会得到一个JSON，不过found值变成了false。
+            此外，HTTP响应状态码也会变成'404 Not Found'代替'200 OK'。我们可以在curl后加-i参数得到响应头：
+                curl -i -XGET http://localhost:9200/website/blog/124?pretty
+            请求部分字段：GET /website/blog/123?_source=title,text
+                         GET /website/blog/123/_source
+        3.跟新文档
+            POST /website/blog/123{} 对应的文档版本会增加
+        4.删除文档
+            DELETE /website/blog/123
+        5.局部更新
+            POST /website/blog/1/_update
+            {
+               "doc" : {
+                  "tags" : [ "testing" ],
+                  "views": 0
+               }
+            }
+        6.批量插入：
+            POST test_search_index/doc/_bulk
+            {
+              "index":{
+                "_id":1
+              }
+            }
+            {
+              "username":"alfred way",
+              "job":"java engineer",
+              "age":18,
+              "birth":"1991-12-15",
+              "isMarried":false
+            }
+            {
+              "index":{
+                "_id":2
+              }
+            }
+            {
+              "username":"alfred",
+              "job":"java senior engineer and java specialist",
+              "age":28,
+              "birth":"1980-05-07",
+              "isMarried":true
+            }
+            ……
+        7.检索多个文档：合并多个请求，减少网络开销，效率更快
+            使用multi-get或者mget API。
+            mget API参数是一个docs数组，数组的每个节点定义一个文档的_index、_type、_id元数据。如果你只想检索一个或几个确定的字段，也可以定义一个_source参数
+            eg:
+                POST /_mget
+                {
+                   "docs" : [
+                      {
+                         "_index" : "website",
+                         "_type" :  "blog",
+                         "_id" :    2
+                      },
+                      {
+                         "_index" : "website",
+                         "_type" :  "pageviews",
+                         "_id" :    1,
+                         "_source": "views"
+                      }
+                   ]
+                }
+            数据在同一个type中时  【文档不存在时会被告知】 found:false
+                POST /gu/es/_mget
+                {
+                   "ids" : [ "2", "1" ]
+                }
+    18.Search API(URI)
+        1.简单示例：
+            GET /_search							#查询所有索引文档
+            GET /my_index/_search					#查询指定索引文档
+            GET /my_index1,my_index2/_search		#多索引查询
+            GET /my_*/_search
+        2.URI查询方式（查询有限制，很多配置不能实现）
+          GET /my_index/_search?q=user:alfred		#指定字段查询
+          GET /my_index/_search?q=keyword&df=user&sort=age:asc&from=4&size=10&timeout=1s
+          解释：
+              q : 指定查询的语句，例如q=aa或q=user:aa
+              df:q中不指定字段默认查询的字段，如果不指定，es会查询所有字段
+              Sort：排序，asc升序，desc降序
+              timeout：指定超时时间，默认不超时
+              from，size：用于分页
+          term与phrase
+          term相当于单词查询，phrase相当于词语查询
+          term：Alfred way等效于alfred or way
+          phrase：”Alfred way” 词语查询，要求先后顺序
+          泛查询
+          Alfred等效于在所有字段去匹配该term(不指定字段查询)
+          指定字段
+          name:alfred
+          Group分组设定（），使用括号指定匹配的规则
+          （quick OR brown）AND fox：通过括号指定匹配的优先级
+          status:(active OR pending) title:(full text search)：把关键词当成一个整体
+
+          2、泛查询
+          GET test_search_index/_search?q=alfred
+
+          3、查询语句执行计划查看
+          GET test_search_index/_search?q=alfred
+          {
+            "profile":true
+          }
+
+          4、term查询
+          GET test_search_index/_search?q=username:alfred way		#alfred OR way
+
+          5、phrase查询
+          GET test_search_index/_search?q=username:"alfred way"
+
+          6、group查询
+          GET test_search_index/_search?q=username:(alfred way)
+        3.批量插入文档
+            POST test_search_index/doc/_bulk
+              {
+                "index":{
+                  "_id":1
+                }
+              }
+              {
+                "username":"alfred way",
+                "job":"java engineer",
+                "age":18,
+                "birth":"1991-12-15",
+                "isMarried":false
+              }
+              ……
+    19.集群
+        1.集群安装
+        2.集群状态
+            颜色	意义
+            green	所有主要分片和复制分片都可用
+            yellow	所有主要分片可用，但不是所有复制分片都可用
+            red	    不是所有的主要分片都可用
+        3.集群分片
+            主分片：每个文档属于一个单独的主分片
+            副分片：主分片的副本，防止数据丢失
+                注意：索引创建时，主分片的数量已经确定，而副分片的数量可以随意调整
+                eg:创建分片：
+                   PUT /blogs
+                   {
+                      "settings" : {
+                         "number_of_shards" : 3,
+                         "number_of_replicas" : 1
+                      }
+                   }
+                   增加副分片：
+                   PUT /blogs/_settings
+                   {
+                      "number_of_replicas" : 2
+                   }
+
+
+
+
+
+
+
+

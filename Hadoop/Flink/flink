@@ -1,0 +1,139 @@
+Flink ：
+    数据来源 ->流处理 ->应用/日志/数据库
+
+    特点：
+     1.事件驱动
+     2.处理的流对象是一种无界流（有界流也可以处理）
+        涉及的API   【DataStream  -> 有界流/有界流】
+                    【DataSet     -> 无界流】
+     数据处理API
+
+     数据源获取：RichSourceFunction
+     数据处理  ：算子处理
+     数据发送  ：RichSinkFunction
+
+     1.数据源
+        kafka:
+        构建环境
+         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+                设置参数
+                env.setParallelism(2);
+                env.enableCheckpointing(5000);
+                env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
+
+                Properties pro = new Properties();
+                pro.setProperty("bootstrap.servers", "192.168.1.171:9092");
+                pro.setProperty("group.id", "flink");
+                kafka 数据源
+                FlinkKafkaConsumer010<String> kfc = new FlinkKafkaConsumer010<>("estest", new SimpleStringSchema(), pro);
+                添加数据源
+                env.addSource(kfc）
+                数据处理
+                ……
+                执行
+                env.execute();
+          mysql:
+          构建环境
+          StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+          设置数据源
+          DataStreamSource<Student> source = env.addSource(new FlinkSourceUtil());
+            数据源 FlinkSourceUtil extends RichSourceFunction
+
+          数据处理
+
+          数据发送 sink()
+            设置发送源    MysqlSinkUtil extends RichSinkFunction
+          执行
+
+          file:
+          设置执行环境
+          ExecutionEnvironment =ExecutionEnvironment .getExecutionEnvironment
+
+          读取文件，算子处理
+               val ds: DataSet[String] = env.readTextFile(input)
+               //引入隐式转换函数
+               import org.apache.flink.api.scala.createTypeInformation
+               val ad: AggregateDataSet[(String, Int)] = ds.flatMap(_.split(" ")).map((_,1)).groupBy(0).sum(1)
+
+           输出到文件
+               ad.writeAsText("path",WriteMode.OVERWRITE)
+                 .setParallelism(1)//只输出到一个文件
+
+           redis:(数据来源于mysql，将数据存入redis)
+                    //构建环境
+                   StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+                   DataStreamSource<Person> ds = env.addSource(new SourceMysql());
+                   //数据不处理，直接存入redis
+                   ds.addSink(SinkRedisUtil.getRedisSink());
+                   ds.print();
+                   env.execute();
+
+                   RedisSink构建
+                         SinkRedisMapper implements RedisMapper<Person>
+                        1.实现RedisMapper接口 ，设置数据存入redis的数据类型、设置key、设置value
+                         构建redis连接池
+                        2.FlinkJedisPoolConfig fb = new FlinkJedisPoolConfig.Builder()
+                                         .setDatabase(1)
+                                         .setHost("127.0.0.1")
+                                         .setPort(6379).build();
+                        3.构建redisSink
+                         new RedisSink<Person>(fb,new SinkRedisMapper())
+     2.window
+        数据处理方式:切割无线流为有限块（buckets 桶）进行处理
+        分类：
+        CountWindow：按照指定的数据条数生成一个Window，与时间无关
+        TimeWindow：按照时间生成Window
+            TimeWindow分为三类：
+                滚动窗口（Tumbling Window） 时间对齐，窗口长度固定，无重复
+                滑动窗口（Sliding Window）  时间对齐，窗口长度固定，部分迭代，有重复
+                会话窗口（Session Window）  时间不对齐，一段时间内无数据会生成新的窗口
+        滚动窗口测试：处理的数据仅仅只是本窗口中的数据
+        val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
+            //获取数据源
+            val ds: DataStream[String] = env.socketTextStream("192.168.1.174",7777)
+            import org.apache.flink.api.scala.createTypeInformation
+            val value: KeyedStream[(String, Int), Tuple] = ds.flatMap(_.split(" ")).map((_,1)).keyBy(0)
+            //每10秒生成一个滚动窗口
+            val ws: WindowedStream[(String, Int), Tuple, TimeWindow] = value.timeWindow(Time.seconds(10))
+            //处理的数据仅仅只是该窗口中的数据
+            ws.sum(1).print()
+              //.sum(1).
+            ds.print()
+            env.execute();
+        滑动窗口测试：处理的数据仅仅只是特定时间特定窗口大小的数据
+     3.sql 与 Table api
+        sql  分为两种
+            批处理DataSet              ->对应的执行环境BatchTableEnvironment
+                                                        BatchTableSource
+                                                        BatchTableSink
+            流处理DataStream           ->对应的执行环境StreamTableEnvironment
+                                                        StreamTableSource
+                                                        StreamTableSink
+        基本执行顺序：
+
+        1.构建执行环境
+        val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
+        2.设置时间特性
+        env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
+        3.添加数据源
+        nv.addSource("……")
+        4.算子处理
+        var v= map().falatMap().reduce()……
+        v.assignTimestampsAndWatermarks
+        5.构建表环境
+          val tenv: StreamTableEnvironment = TableEnvironment.getTableEnvironment(env)
+        6.设置数据与表的对应关系（格式化数据）
+        tenv.fromDataStream(v,……)
+        7.table 操作
+        select() .fliter().
+        8.反构建数据流
+        tenv.toAppendStream[Student](tb)
+        9.输出或发送
+        print()/dink
+        10.执行
+        env.execute()
+
+
+
+
+
