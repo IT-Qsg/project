@@ -13,6 +13,7 @@ public class DemoApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("启动后输出 spring boot 运行器");
+        System.out.println("githubTestTest");
     }
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
