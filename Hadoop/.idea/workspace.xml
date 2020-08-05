@@ -2,64 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b8147a6-7652-44fc-9379-c6bacc980175" name="Default Changelist" comment="hadoop">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/513abd03-17d3-4faf-9e6a-43911b195e3b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9beec424-1df8-4f29-af05-cb1c604d45c7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ImpalaJDBC41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticSearch/src/main/java/com/dfec/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticSearch/src/test/java/com/dfec/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticSearch/target/classes/com/dfec/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticSearch/target/classes/com/dfec/elasticsearch/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticSearch/target/test-classes/com/dfec/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flink/Flink.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flink/src/main/java/com/dfec/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flink/src/main/java/com/dfec/flink/kafka/KafkaProduceTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flink/src/main/resources/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flink/src/test/java/com/dfec/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/src/main/java/com/dfec/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/src/test/java/com/dfec/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/impala/Conn2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/impala/ConnectImpala.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/target/classes/com/dfec/impala/MyFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Impala/target/test-classes/com/dfec/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/basic/FirstFileReadAndWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/basic/UtilTestFile_RW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequdenceFileReaderObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequenceFileWriterObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/src/test/java/com/dfec/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/basic/FirstFileReadAndWriter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/basic/UtilTestFile_RW.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/SequenceFileTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequdenceFileReaderObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/SequenceFileWriterObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/classes/com/dfec/hdfs/file_readerandwriter/sequence_file/stu/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/hdfs-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/surefire-reports/TEST-com.dfec.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/surefire-reports/com.dfec.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdfs/target/test-classes/com/dfec/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dfec/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dfec/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../client/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../client/.idea/misc.xml" afterDir="false" />
@@ -383,6 +325,7 @@
       <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/resources/application-test.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../studySpringboot/redis/src/test/java/com/dfec/redis/RedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootmybatis/src/main/java/com/dfec/springbootmybatis/DemoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" />
@@ -421,8 +364,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ElasticSearch/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="234">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="n#build#0;n#project#0;n#!!top" />
               </folding>
@@ -713,15 +656,24 @@
       <workItem from="1596371319817" duration="807000" />
       <workItem from="1596413183214" duration="17934000" />
       <workItem from="1596500237177" duration="11080000" />
-      <workItem from="1596586298831" duration="5717000" />
+      <workItem from="1596586298831" duration="6494000" />
     </task>
+    <task id="LOCAL-00001" summary="hadoop">
+      <created>1596605495365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596605495365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172953000" />
+    <option name="totallyTimeSpent" value="173730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -744,7 +696,7 @@
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.44197953" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.21843003" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.29180887" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" weight="0.32980332" />
@@ -1201,8 +1153,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ElasticSearch/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="234">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="n#build#0;n#project#0;n#!!top" />
           </folding>
