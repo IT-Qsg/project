@@ -1,0 +1,50 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8081
+
+spring:
+  application:
+    name: redis
+  resources:
+    static-locations: classpath:resources/,file:/usr/local/soft/service/,file:H:/workspace-photon/service/
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    default-property-inclusion: non_null
+  mvc:
+    static-path-pattern: /**
+    throw-exception-if-no-handler-found: true
+  swagger:
+    enabled: true
+    title: API
+    base-package: com
+    description: API文档
+    version: 1.0.0
+    contact:
+      name: Andy
+      email: 646959428@qq.com
+      url: http://www.dfec.com.cn
+    security:
+      # 是否启用 swagger 登录验证
+      filter-plugin: true
+      username: admin
+      password: admin@123
+    global-operation-parameters[0]:
+      description: 'token,必填项'
+      modelRef: 'string'
+      name: 'token'
+      parameter-type: 'header'
+      required: true
+
+
+
